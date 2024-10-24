@@ -16,4 +16,4 @@ spec:
       - name: flask-k8s-app
         image: flask-k8s-app
         ports: 
-          - containerPort: 3000
+          - containerPort: 5000
