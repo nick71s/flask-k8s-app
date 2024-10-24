@@ -13,7 +13,7 @@ spec:
         app: flask-k8s-app # Labels applied to the pods created by this deployment.
     spec:
       containers:
-      - name: flask-k8s-app # The name of the container running in each pod.
-      image: flask-k8s-app # Specifies the Docker image to use for the container.
-      ports:
-      - containerPort: 3000 # The port that the container listens on, matching the Flask app's port.
+      - name: flask-k8s-app
+        image: flask-k8s-app
+        ports: 
+          - containerPort: 3000
